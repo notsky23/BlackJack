@@ -406,32 +406,37 @@ def draw(canvas):
         textHandler("DRAW!!!", (200, 125), "Comic Sans MS", 35, BLACK)
 
 
-# initialization frame
-screen = pygame.display.set_mode((600, 650))
-pygame.display.set_caption("BlackJack")
+def gameloop():
+    # get things rolling
+    deal()
 
-# create buttons
-dealButton = Button("Deal", 130, 40, (30, 600), 6, deal, False)
-hitButton = Button("Hit", 130, 40, (170, 600), 6, hit, True)
-standButton = Button("Stand", 130, 40, (310, 600), 6, stand, True)
-quitButton = Button("Quit", 130, 40, (450, 600), 6, quit, False)
+    while True:
+        # Draw screen
+        draw(screen)
 
-# get things rolling
-deal()
+        # listener loop
+        for event in pygame.event.get():
 
-while True:
-    # Draw screen
-    draw(screen)
-
-    # listener loop
-    for event in pygame.event.get():
-
-        # quit listener
-        if event.type == QUIT:
-            quit()
+            # quit listener
+            if event.type == QUIT:
+                quit()
 
 
-    pygame.display.update()
+        pygame.display.update()
+
+
+if __name__ == "__main__":
+    # initialization frame
+    screen = pygame.display.set_mode((600, 650))
+    pygame.display.set_caption("BlackJack")
+
+    # create buttons
+    dealButton = Button("Deal", 130, 40, (30, 600), 6, deal, False)
+    hitButton = Button("Hit", 130, 40, (170, 600), 6, hit, True)
+    standButton = Button("Stand", 130, 40, (310, 600), 6, stand, True)
+    quitButton = Button("Quit", 130, 40, (450, 600), 6, quit, False)
+
+    gameloop()
 
 
 # remember to review the gradic rubric
