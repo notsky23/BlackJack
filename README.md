@@ -4,8 +4,8 @@ A practice with object oriented programming<br>
 w Pygame<br><br>
 
 How to play?<br>
-1. Legal moves/Button controls:<br><t>
-  - Deal - new round (similar ro folding and starting a new round)<br>
+1. Legal moves/Button controls:<br>
+  <t>- Deal - new round (similar ro folding and starting a new round)<br>
   - Hit - gives player another card<br>
   - Stand - keep current cards and compare with dealer's hand<br>
   - Quit - exits game<br>
