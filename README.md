@@ -13,13 +13,13 @@ How to play?<br>
 2. Rules:<br>
   <t>- Win condition: player and dealer sums the total of the value of the cards in their hand, and whoever is higher wins:<br>
     - One caveat: if either player or dealer goes over 21, they bust and lost the game.<br>
-  - At the start of the game:<br>
+  <t>- At the start of the game:<br>
     -  You(Player) and Dealer are given 2 cards each face up<br><br>
     -  The dealer's 1st card is face down
-  - Player:<br>
+  <t>- Player:<br>
     - Can keep hitting while his card total is less than or equal to 21<br>
     - When you feel like your hand is high enough and dealer won't be able to beat it, stand<br>
-  - Dealer:<br>
+  <t>- Dealer:<br>
     - After Player ends turn by choosing stand:<br>
       - While the sum of dealer's hand is less than 17, keep drawing cards<br>
       - If dealer's hand goes past 21, dealer busts and player wins<br><br>
