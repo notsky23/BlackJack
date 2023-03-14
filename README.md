@@ -5,21 +5,21 @@ w Pygame<br><br>
 
 How to play?<br>
 1. Legal moves/Button controls:<br>
-  <t>- Deal - new round (similar ro folding and starting a new round)<br>
-  <t>- Hit - gives player another card<br>
-  <t>- Stand - keep current cards and compare with dealer's hand<br>
-  <t>- Quit - exits game<br>
+  - Deal - new round (similar ro folding and starting a new round)<br>
+  - Hit - gives player another card<br>
+  - Stand - keep current cards and compare with dealer's hand<br>
+  - Quit - exits game<br>
 
 2. Rules:<br>
-  <t>- Win condition: player and dealer sums the total of the value of the cards in their hand, and whoever is higher wins:</t><br>
+    - Win condition: player and dealer sums the total of the value of the cards in their hand, and whoever is higher wins:<br>
     - One caveat: if either player or dealer goes over 21, they bust and lost the game.<br>
-  <t>- At the start of the game:</t><br>
+  - At the start of the game:<br>
     -  You(Player) and Dealer are given 2 cards each face up<br><br>
     -  The dealer's 1st card is face down
-  <t>- Player:<br>
+  - Player:<br>
     - Can keep hitting while his card total is less than or equal to 21<br>
     - When you feel like your hand is high enough and dealer won't be able to beat it, stand<br>
-  <t>- Dealer:<br>
+  - Dealer:<br>
     - After Player ends turn by choosing stand:<br>
       - While the sum of dealer's hand is less than 17, keep drawing cards<br>
       - If dealer's hand goes past 21, dealer busts and player wins<br><br>
