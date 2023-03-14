@@ -8,7 +8,7 @@ How to play?<br>
     - Win condition: player and dealer sums the total of the value of the cards in their hand, and whoever is higher wins:<br>
         - One caveat: if either player or dealer goes over 21, they bust and lost the game.<br>
         - 
-2. Rules:<br>
+2. Game Dynamics:<br>
     - At the start of the game:<br>
         - You(Player) and Dealer are given 2 cards each face up<br>
         - The dealer's 1st card is face down<br>
