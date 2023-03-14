@@ -5,10 +5,10 @@ w Pygame<br><br>
 
 How to play?<br>
 1. Legal moves/Button controls:<br>
-  - Deal - new round (similar ro folding and starting a new round)<br>
-  - Hit - gives player another card<br>
-  - Stand - keep current cards and compare with dealer's hand<br>
-  - Quit - exits game<br>
+    - Deal - new round (similar ro folding and starting a new round)<br>
+    - Hit - gives player another card<br>
+    - Stand - keep current cards and compare with dealer's hand<br>
+    - Quit - exits game<br>
 
 2. Rules:<br>
     - Win condition: player and dealer sums the total of the value of the cards in their hand, and whoever is higher wins:<br>
