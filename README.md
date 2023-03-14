@@ -24,4 +24,4 @@ How to play?<br>
       - While the sum of dealer's hand is less than 17, keep drawing cards<br>
       - If dealer's hand goes past 21, dealer busts and player wins<br><br>
   
-![image](![image](https://user-images.githubusercontent.com/98131995/224893697-247ce376-e68c-47e5-9cb4-1f0c15bdde74.png))<br><br>
+![image](https://user-images.githubusercontent.com/98131995/210928293-96b418be-0669-434d-ba6c-15770412aef2.png))<br><br>
