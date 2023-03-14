@@ -12,7 +12,7 @@ How to play?<br>
 
 2. Rules:<br>
   <t>- Win condition: player and dealer sums the total of the value of the cards in their hand, and whoever is higher wins:<br>
-  </t>  - One caveat: if either player or dealer goes over 21, they bust and lost the game.<br>
+  <t>  - One caveat: if either player or dealer goes over 21, they bust and lost the game.<br>
   <t>- At the start of the game:<br>
   <t>  -  You(Player) and Dealer are given 2 cards each face up<br><br>
   <t>  -  The dealer's 1st card is face down
